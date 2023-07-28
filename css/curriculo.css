@@ -1,0 +1,66 @@
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1025px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+main img {
+    border-radius: 100%;
+    margin-bottom: 100px;
+    width: 65%;
+    margin-top: 100px;
+}
+
+main .left,main .center,main .right {
+    width: 100%;
+    font-size: calc(1rem + 1vw);
+    padding: 2%;
+}
+
+main .left {
+    background-color: #C5DFF8;
+    border: 5px solid white;
+}
+
+main .center {
+    background-color: #A0BFE0;
+    border: 5px solid white;
+}
+
+main .right {
+    background-color: #C5DFF8;;
+    border: 5px solid white;
+}
+
+.left a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 40px;
+}
+
+p{
+    margin: 15px;
+}
